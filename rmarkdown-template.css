@@ -1,0 +1,205 @@
+<style type="text/css">
+
+
+
+/* Header 1 */
+h1 { 
+    font-style: normal;
+}
+
+/* Title */
+h1.title { 
+    font-size: 24px;
+    color: Black;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: .75em;
+}
+
+
+/* Header 1 */
+h1 { 
+    font-size: 22px;
+    color: Black;
+    font-weight: bold; <!-- this could be:  font-weight: bold -->
+}
+
+/* Subtitle */
+h3.subtitle { 
+    font-size: 18px;
+    color: Black;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+}
+
+/* Author */
+h4.author { 
+    font-size: 18px;
+    color: Black;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+}
+
+/* Date */
+h4.date { 
+    font-size: 18px;
+    color: Black;
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+}
+
+
+/* Header 2 */
+h2 { 
+    font-size: 18px;
+    color: Black;
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Header 3 */
+h3 { 
+    font-size: 18px;
+    color: Black;
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* Header 4 */
+h4 { 
+    font-size: 16px;
+    color: Black;
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+
+
+/* Main body   */
+body{ 
+      font-size: 15px;
+      color: #333333; /* This is a slightly grey */
+      font-family: "Helvetica", sans-serif;
+      max-width: 1100px;
+      margin: auto; /* Top Right Bottom Left */
+      padding: 1em;
+      line-height: 1.25em;
+  }
+  
+/* Possible alternatives 
+font-family: "Lucida Console", "Courier New", monospace;
+font-family: Arial, Helvetica, sans-serif;
+font-family: "Times New Roman", Times, serif;
+*/
+
+/* Header 5 */
+h5 { 
+    font-size: 16px;
+    color: Black;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    margin-bottom:-5px;
+}
+
+/* Quoted text  */
+blockquote {
+    padding: 5px 10px;
+    margin: 10px 0px 20px 0px; /* Top Right Bottom Left */
+    font-size: 100%;
+    color: #333333;
+    border: solid 1px black;
+    /* For verical band instead of rectangle:    border-left: 5px solid #eee; /* Thickness of vertical band  */
+}
+
+
+/* Tables  */
+td {  
+  font-size: 90%;
+}
+
+
+
+/* Code blocks */
+pre.r {  
+    font-size: 90%;
+    background: #F5F5F5;
+    border: solid 0px black;
+}
+
+pre {  
+    font-size: 90%;
+    background: #F5F5F5;
+    border: dashed 1px black;
+}
+
+
+
+
+
+
+
+/* Figure Captions */
+p.caption {
+  font-size: 80%;
+  line-height: 100%;
+  font-style: normal;
+  color: #333333;
+  margin-right: 0%;
+  margin-left: 0%;  
+  text-align: center;
+}
+
+
+/* hyperlinks */
+a { 
+  color: #337ab7;
+}
+a:hover {
+ color: 	#00008B; /* darker color when hovering */
+}
+
+
+/* Math expressions */
+
+.math {
+  font-size: 95%;
+}
+
+
+
+
+/* Table of contents */
+
+#TOC {
+  position: fixed;
+  margin: 20px 0px 1px 0px;
+  top: 0px;
+  border: 0px solid #aaa; /*set to 1px for  border*/
+  font-size: 95%;
+  padding: 10px;
+  background: white;
+  max-height: 98%;
+  width: 70%;
+  
+}
+
+.tocify .tocify-header .active { /* Color of highlithed item*/
+  color: white;
+  background: #337ab7;
+  border-radius: 10px;
+ }
+ 
+.tocify .tocify-header { /* Color of non-highlithed item*/
+  color: #337ab7;
+  border: 0px solid #aaa;
+}
+
+
+
+</style>

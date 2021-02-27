@@ -1,1 +1,1 @@
-# rmarkdown-css
+A nicer custom CSS style for your Rmarkdown docs.
